@@ -347,3 +347,5 @@ template {
 [hidden] {
   display: none;
 }
+
+@font-face{font-family:"PT Sans Caption";src:url(https://kvmelnikov.github.io/clinic/fonts/PTSansCaption-Regular.woff) format("woff"),url(https://kvmelnikov.github.io/clinic/fonts/PTSansCaption-Regular.woff2) format("woff2")}@font-face{font-family:"PT Sans Caption Bold";src:url(https://kvmelnikov.github.io/clinic/fonts/PTSansCaption-Bold.woff) format("woff"),url(https://kvmelnikov.github.io/clinic/fonts/PTSansCaption-Bold.woff2) format("woff2")}body{background-color:#fff;color:green;font-family:"PT Sans Caption",Arial,Helvetica,sans-serif}.image{width:300px;height:500px;background-image:url(https://kvmelnikov.github.io/clinic/assets/logo.png);background-repeat:no-repeat}
