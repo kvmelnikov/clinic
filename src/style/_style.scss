@@ -1,12 +1,6 @@
-body {
-    background-color: $back;
-    color: $text;
-    font-family: 'PT Sans Caption', Arial, Helvetica, sans-serif;
-}
+@import 'blocks/button-default/button-default.scss';
+@import 'blocks/container/container.scss';
+@import 'blocks/header/header.scss';
+@import 'blocks/navbar-mobile/navbar-mobile.scss';
+@import 'blocks/navbar-large/navbar-large.scss';
 
-.image {
-    width: 300px;
-    height: 500px;
-    background-image: url('img/logo.png');
-    background-repeat: no-repeat;
-}
