@@ -1,0 +1,32 @@
+.button {
+    border-radius: 50px;
+    min-width: 196px;
+    min-height: 43px;
+    font-family: $font-normal;
+    font-size: 14px;
+    line-height: 1.5;
+
+    &_green {
+        background-color: #0DBC91;
+        color: #FFFFFF;
+
+        &:hover {
+            background-color: #00D29F;
+        }
+    }
+
+    &_opacity {
+        border: 1px solid #0DBC91;
+        background-color:#E2F0EF;
+        color: #0DBC91;
+
+        &:hover {
+            background-color: #00D29F;
+        }
+    }
+
+    
+
+
+
+}
