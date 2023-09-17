@@ -1,12 +1,11 @@
 .navbar-large {
     display: none;
-
-    @media (min-width: $screen-lg) {
-        background-color: #1FA181;
-        min-height: 43px;
-        display: flex;
-        align-items: center;
-        
+    background-color: #1FA181;
+    @media (min-width: $screen-lg) {        
+    display: block;
+    }
+    
+    @media (min-width: $screen-lg) {        
         &__list {
             list-style: none;
             display: flex;
@@ -14,6 +13,10 @@
             align-items: center;
             padding: 0;
             margin: 0;
+   
+            min-height: 43px;
+            display: flex;
+            align-items: center;
         }
     
         &__link {
@@ -21,18 +24,6 @@
             font-family: $font-normal;
             font-size: 16px;
             line-height: 1.5;
-            color: #FFFFFF;
-    
-            &:visited {
-                text-decoration: none;
-                color: #FFFFFF;
-            }
-    
-            &:hover {
-                text-decoration: none;
-                opacity: .8;
-            }
-    
         }
     
         &__item {

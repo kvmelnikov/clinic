@@ -6,11 +6,13 @@
     }
 
     @media (min-width: $screen-lg) {
-        padding: 0 100px 0 100px;
+        max-width: 1140px;
+        margin: 0 auto;
     }
 
     @media (min-width: $screen-extra-lg) {
-        padding: 0 390px 0 390px;
+       max-width: 1140px;
+       margin: 0 auto;
     }
 
 

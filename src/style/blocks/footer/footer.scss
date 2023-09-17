@@ -1,0 +1,108 @@
+.footer {
+    background-color: #08664F;
+    padding-top: 42px;
+    @media (min-width: $screen-lg) {
+        display: flex;
+        align-items: center;
+       
+    }
+
+
+    @media (min-width: $screen-lg) {
+        padding: 0;
+        min-height: 144px;
+    }
+
+
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        @media (min-width: $screen-lg) {
+            
+            
+        }
+    
+    }
+    
+    &__logo{
+        width: 91px;
+        height: 27px;
+        order: 0;
+        
+    }
+
+    &__social {
+        display: flex;
+        justify-content: flex-end;
+        flex-basis: 60%;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        order: 1;
+
+        @media (min-width: 494px) {
+            flex-basis: 80%;
+        }
+
+        @media (min-width: $screen-lg) {
+            flex-basis: auto;
+            order: 2;
+        }
+ 
+    }
+
+    &__item-social{
+        margin-right: 20px;
+        &:nth-last-child(1) {
+            margin-right: 0;
+        }
+    }
+    &__social-image {
+        width: 23px;
+        height: 23px;
+        &:hover{
+            opacity: .8;
+        }
+    }
+
+    &__nav {
+        order: 2;
+        @media (min-width: $screen-lg) {
+            order: 1;
+        }
+    }
+
+    &__menu {
+        display: flex;
+        flex-direction: column;
+        list-style: none;
+        padding: 0;
+        @media (min-width: $screen-lg) {
+            order: 1;
+            flex-direction: row;
+            align-items: center;
+        }
+      
+    }
+
+    &__item-menu {
+        margin-bottom: 15px;
+        &:nth-last-child(1) {
+            margin-bottom: 0;
+        }
+
+        @media (min-width: $screen-lg) {
+            margin: 0;
+        }
+
+    }
+
+    &__link-menu {
+        font-family:$font-normal;
+        font-size: 14px;
+        line-height: 1.3;
+    }
+
+}
