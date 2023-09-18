@@ -17,18 +17,18 @@
         }
     }
     &__menu {
-        height: 26px;
+        height: 29px;
         width: 37px;
         background-image: url('images/menu.png');
+        background-repeat: no-repeat;
         @media (min-width: $screen-lg) {
             display: none;
         }
     }
 
     &__menu_active {
-        height: 29px;
-        width: 29px;
         background-image: url('images/close-menu.png');
+        background-repeat: no-repeat;
     }
 
     &__logo {
