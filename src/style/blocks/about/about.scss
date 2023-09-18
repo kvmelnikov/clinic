@@ -12,13 +12,12 @@
         background-size: 49.48vw 27.76vw;
     }
 
-
-    
     &__wrapper {
         display: flex;
         flex-direction: column;
         justify-content: flex-end;
         min-height: 132vw;
+
         @media (min-width: 454px) {
             min-height: 123vw;
         }
@@ -26,12 +25,12 @@
             min-height: 100vw;
         }
 
-
         @media (min-width: $screen-lg) {
          flex-direction: row;
          justify-content: flex-start;
          min-height: 280px;
          max-width: 416px;
+         ;
         }
         @media (min-width: $screen-extra-lg) {
             min-height: 380px;
@@ -40,13 +39,12 @@
         @media (min-width: $screen-big) {
             min-height: 27.76vw;
         }
-
   
     }
 
-
     &__text {
         color: $text-color-main; 
+        align-self: center;
     }
 
     &__heading {

@@ -117,12 +117,12 @@
     } 
 
     &__phone-text-large {
-        margin: 0;
         font-family: $font-normal;
         font-size: 16px;
         line-height: 1.5;
         color: $text-color-main;
         position: relative;
+        margin:0 35px 0 0;
 
         &:before {
             content: '';
