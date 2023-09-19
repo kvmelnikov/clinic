@@ -112,7 +112,7 @@
         margin: 12px 0 0 0;
         list-style-image: url('images/bullet.png');
         line-height: 1.3;
-
+        
         @media (min-width: $screen-big) {
             margin-top: 16px;
         }
@@ -123,9 +123,13 @@
         font-size: 14px;
         line-height: 1.4;
         color: $text-color-main;
+        margin-bottom: 12px;
 
         &:nth-last-child(1) {
             margin-bottom: 0;
+        }
+        @media (min-width: $screen-lg) {
+           margin-bottom: 0;
         }
 
         @media (min-width: $screen-extra-lg) {
