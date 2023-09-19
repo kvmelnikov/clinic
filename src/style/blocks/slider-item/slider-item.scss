@@ -20,12 +20,7 @@
         @media (min-width: 376px) {
             height: 45vw;
         }
-        // @media (min-width: $screen-medium) {
-        //     height: 334px;
-        //     max-width: 346px;
-        //     width: 100%;
-           
-        // }
+
         @media (min-width: $screen-lg) {
             height: 26vw;
             width: 33.59vw;
@@ -45,7 +40,6 @@
     }
 
     &__img {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
         width: 100%;
         background-image: url('images/doctor--table.jpg');
         background-repeat: no-repeat;
@@ -54,8 +48,10 @@
         border-radius: 5px 5px 0px 0px;
                 @media (min-width: $screen-lg) {
                     border-radius: 0;
+                     clip-path: polygon(0 0, 100% 0, 100% 100%, 18% 100%);
                 }
     }
+
 
     &__bottom {
         box-sizing: border-box;
@@ -63,6 +59,7 @@
         padding: 22px 0 42px 23px;
         display: flex;
         flex-direction: column;
+
         @media (min-width: $screen-lg) {
             padding: 0 0 0 5px;
             min-height: 26vw;
