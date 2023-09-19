@@ -1,10 +1,6 @@
 .container {
     padding: 0 18px 0 17px;
     
-    @media (min-width: $screen-medium) {
-       
-    }
-
     @media (min-width: $screen-lg) {
         padding: 0 50px 0 50px;
         max-width: 1140px;

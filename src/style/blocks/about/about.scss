@@ -39,6 +39,7 @@
         }
         @media (min-width: $screen-extra-lg) {
             min-height: 380px;
+           
         }
 
         @media (min-width: $screen-big) {
@@ -54,16 +55,27 @@
 
     &__heading {
         font-family: $font-bold;
+        font-weight: 700;
         font-size: 26px;
         line-height: 1.3;
         margin: 0 0 9px 0; 
+        @media (min-width: $screen-extra-lg) {
+          font-size: 36px;
+          margin-bottom: 14px;
+        }
+
     }
 
     &__descript {
         font-family: $font-normal;
+        font-weight: 400;
         font-size: 14px;
         line-height: 1.5;
         margin: 0;
+        @media (min-width: $screen-extra-lg) {
+            font-size: 16px;
+             
+          }
     }
     
 

@@ -2,7 +2,7 @@
     display: none;
     background-color: #1FA181;
     @media (min-width: $screen-lg) {        
-    display: block;
+        display: block;
     }
     
     @media (min-width: $screen-lg) {        
@@ -13,7 +13,6 @@
             align-items: center;
             padding: 0;
             margin: 0;
-   
             min-height: 43px;
             display: flex;
             align-items: center;
@@ -22,6 +21,7 @@
         &__link {
             text-decoration: none;
             font-family: $font-normal;
+            font-weight: 400;
             font-size: 16px;
             line-height: 1.5;
         }

@@ -42,6 +42,7 @@
     &__link {
         display: inline-block;
         font-family: $font-normal;
+        font-weight: 400;
         font-size: 16px;
         line-height: 1.5;
         margin-bottom: 10px;
@@ -52,6 +53,7 @@
         height: 43px;
         background-color: #F6F6F6;
         font-family: $font-bold;
+        font-weight: 700;
         color: #1FA181;
         font-size: 14px;
         line-height: 1.5;

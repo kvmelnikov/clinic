@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    
+
 
     &__title {
         font-family: $font-bold;
@@ -27,7 +27,7 @@
         background-color: #fff;
         font-size: 14px;
         font-family: inherit;
-        color: inherit;
+        color: $text-color-main;
         padding: 0;
         padding-bottom: 13px;
 
